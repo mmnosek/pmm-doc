@@ -31,7 +31,7 @@ See [Setting Up PMM Client](setting-up/client/mysql.md#setting-up-client-user).
 
 ## Can I monitor multiple service instances?
 
-You can add multiple instances of MySQL or some other service to be monitored from one PMM Client. In this case, you must provide a unique port and IP address, or a socket for each instance, and specify a unique name for each.  (If a name is not provided, PMM uses the name of the PMM Client host.)
+You can add multiple instances of MySQL or some other service to be monitored from one PMM Client. In this case, you must provide a unique port and IP address, or a socket for each instance, and specify a unique name for each. (If a name is not provided, PMM uses the name of the PMM Client host.)
 
 For example, to add complete MySQL monitoring for two local MySQL servers, the commands would be:
 
